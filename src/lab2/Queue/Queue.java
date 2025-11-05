@@ -26,16 +26,19 @@ public class Queue<T>{
 
     public T peek() throws EmptyQueueException {
         if (queue.isEmpty()) {
-            throw new EmptyQueueException(e);
+            throw new EmptyQueueException();
         }
         return queue.getFirst();
     }
 
     public T inspect() {
-
-
+        if (queue.isEmpty()) {
+            throw new EmptyQueueException();
+        }
+        return queue.getLast();
     }
 
     public int count() {
+        return queue.size();
     }
 }

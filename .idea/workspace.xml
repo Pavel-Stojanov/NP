@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/Arrays/IntegerArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/Arrays/ResizableArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/Arrays/ResizableArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/LocalDate/LocalDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/LocalDateTime/LocalDateTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/LocalTime/LocalTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/Queue/EmptyQueueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/Queue/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/Queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/Queue/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/Queue/emptyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/Timestamp/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/Timestamp/SchedulerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/Timestamp/Timestamp.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/src/lab2/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Queue/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +70,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762376384802</updated>
-      <workItem from="1762376385990" duration="7608000" />
+      <workItem from="1762376385990" duration="7919000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1762384245938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762384245938</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
