@@ -4,9 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="queue fixes">
-      <change afterPath="$PROJECT_DIR$/src/lab2/ComplexNumber/ComplexNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/ComplexNumber/ComplexNumberTest.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="lab2 final commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/FileNameExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/FileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/FileSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/Folder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/IFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Logger/LoggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/MinMax/MinAndMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/MinMax/MinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes1/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes1/Shapes1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes1/ShapesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/IrregularCanvasException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Shapes2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/ShapesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Exception" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -25,21 +44,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Pavel-Stojanov"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pavel-Stojanov&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Pavel-Stojanov/NP.git",
-    "accountId": "f347cf46-22c9-43c2-9da6-6819a75f41d2"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pavel-Stojanov/NP.git&quot;,
+    &quot;accountId&quot;: &quot;f347cf46-22c9-43c2-9da6-6819a75f41d2&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="354jkXuaoSziFiQ8d88Ff418FZu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,9 +67,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FileSystemTest.executor": "Debug",
     "Application.LocalDateTest.executor": "Run",
     "Application.LocalTimeTest.executor": "Run",
+    "Application.MinAndMax.executor": "Debug",
+    "Application.ResizableArrayTest.executor": "Debug",
+    "Application.SchedulerTest.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -58,15 +82,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.android.studio.ml.bot.mainConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="vezbi.Shapes2" />
+      <recent name="vezbi.Shapes" />
+      <recent name="vezbi.MinMax" />
+      <recent name="vezbi.FileSystem" />
       <recent name="lab2.ComplexNumber" />
-      <recent name="lab2.Queue" />
-      <recent name="lab2.Timestamp" />
-      <recent name="lab2.Arrays" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -85,7 +111,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762376384802</updated>
-      <workItem from="1762376385990" duration="9244000" />
+      <workItem from="1762376385990" duration="9440000" />
+      <workItem from="1762393117783" duration="828000" />
+      <workItem from="1762528606751" duration="8517000" />
+      <workItem from="1762538091119" duration="6809000" />
+      <workItem from="1762616803069" duration="5057000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -103,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762384712048</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lab2 final commit">
+      <option name="closed" value="true" />
+      <created>1762385897260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762385897260</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +150,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="queue fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="queue fixes" />
+    <MESSAGE value="lab2 final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab2 final commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/vezbi/FileSystem/Folder.java</url>
+          <line>16</line>
+          <properties class="vezbi.FileSystem.Folder" method="addFile">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
