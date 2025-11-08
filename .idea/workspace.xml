@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="vezbi 1-5 commit">
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="filesystem fixes">
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Canvas/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Canvas/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Canvas/Scalable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Canvas/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Canvas/ShapesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Canvas/Stackable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/FileNameExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/FileNameExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/FileSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/FileSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/Folder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/Folder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/IFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/IFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,7 @@
       <workItem from="1762393117783" duration="828000" />
       <workItem from="1762528606751" duration="8517000" />
       <workItem from="1762538091119" duration="6809000" />
-      <workItem from="1762616803069" duration="7378000" />
+      <workItem from="1762616803069" duration="9420000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -134,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762628847470</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="filesystem fixes">
+      <option name="closed" value="true" />
+      <created>1762631431820</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762631431820</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +154,8 @@
     <MESSAGE value="queue fixes" />
     <MESSAGE value="lab2 final commit" />
     <MESSAGE value="vezbi 1-5 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="vezbi 1-5 commit" />
+    <MESSAGE value="filesystem fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="filesystem fixes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
