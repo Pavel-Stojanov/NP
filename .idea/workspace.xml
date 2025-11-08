@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="6">
-      <change afterPath="$PROJECT_DIR$/src/vezbi/TimeTable/InvalidTimeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/TimeTable/TimeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/TimeTable/TimesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/TimeTable/UnsupportedFormatException.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="7">
+      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStore/Archive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStore/ArchiveStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStore/ArchiveStoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStore/LockedArchive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStore/NonExistingItemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStore/SpecialArchive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Exception" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -54,6 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArchiveStoreTest.executor": "Debug",
     "Application.FileSystemTest.executor": "Run",
     "Application.LocalDateTest.executor": "Run",
     "Application.LocalTimeTest.executor": "Run",
@@ -76,11 +79,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="vezbi.ArchiveStore" />
       <recent name="vezbi.TimeTable" />
       <recent name="vezbi.Shapes2" />
       <recent name="vezbi.Shapes" />
       <recent name="vezbi.MinMax" />
-      <recent name="vezbi.FileSystem" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -103,7 +106,8 @@
       <workItem from="1762393117783" duration="828000" />
       <workItem from="1762528606751" duration="8517000" />
       <workItem from="1762538091119" duration="6809000" />
-      <workItem from="1762616803069" duration="11545000" />
+      <workItem from="1762616803069" duration="11615000" />
+      <workItem from="1762644009225" duration="2239000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -153,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762633306557</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="7">
+      <option name="closed" value="true" />
+      <created>1762635427511</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762635427511</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,22 +178,8 @@
     <MESSAGE value="vezbi 1-5 commit" />
     <MESSAGE value="filesystem fixes" />
     <MESSAGE value="6" />
-    <option name="LAST_COMMIT_MESSAGE" value="6" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/vezbi/TimeTable/TimeTable.java</url>
-          <line>17</line>
-          <properties class="vezbi.TimeTable.TimeTable" method="readTimes">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="7" />
+    <option name="LAST_COMMIT_MESSAGE" value="7" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
