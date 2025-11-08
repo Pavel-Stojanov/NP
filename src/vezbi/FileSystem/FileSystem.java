@@ -7,20 +7,21 @@ public class FileSystem {
         rootDirectory = new Folder("root");
     }
 
-    public void addFile(IFile file) {
+    public void addFile(IFile file) throws FileNameExistsException {
         rootDirectory.addFile(file);
     }
 
     public void sortBySize() {
-
+        rootDirectory.sortBySize();
     }
 
     @Override
     public String toString() {
-        return String.format("Folder name: %10s File size: %10d", "root", rootDirectory.getFileSize()) ;
+        return rootDirectory.getFileInfo("");
     }
 
-    public long findLargestFile (){
-        return 0;
+
+    public long findLargestFile() {
+        return rootDirectory.findLargestFile();
     }
 }

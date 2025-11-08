@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="lab2 final commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/FileNameExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/FileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/FileSystemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/Folder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/IFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Logger/LoggerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/MinMax/MinAndMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/MinMax/MinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes1/Canvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes1/Shapes1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes1/ShapesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Canvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/IrregularCanvasException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Shapes2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/ShapesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Square.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="vezbi 1-5 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/FileNameExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/FileNameExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/FileSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/FileSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/Folder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/Folder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/IFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem/IFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.FileSystemTest.executor": "Debug",
+    "Application.FileSystemTest.executor": "Run",
     "Application.LocalDateTest.executor": "Run",
     "Application.LocalTimeTest.executor": "Run",
     "Application.MinAndMax.executor": "Debug",
@@ -115,7 +100,7 @@
       <workItem from="1762393117783" duration="828000" />
       <workItem from="1762528606751" duration="8517000" />
       <workItem from="1762538091119" duration="6809000" />
-      <workItem from="1762616803069" duration="5057000" />
+      <workItem from="1762616803069" duration="7378000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -141,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762385897260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="vezbi 1-5 commit">
+      <option name="closed" value="true" />
+      <created>1762628847470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762628847470</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,22 +144,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="queue fixes" />
     <MESSAGE value="lab2 final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab2 final commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/vezbi/FileSystem/Folder.java</url>
-          <line>16</line>
-          <properties class="vezbi.FileSystem.Folder" method="addFile">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="vezbi 1-5 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="vezbi 1-5 commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

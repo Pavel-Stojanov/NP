@@ -50,11 +50,11 @@ public class FileSystemTest {
         System.out.println("===PRINTING FILE SYSTEM INFO===");
         System.out.println(fileSystem.toString());
 
-        System.out.println("===PRINTING FILE SYSTEM INFO AFTER SORTING===");
+        System.out.println("\n===PRINTING FILE SYSTEM INFO AFTER SORTING===");
         fileSystem.sortBySize();
         System.out.println(fileSystem.toString());
 
-        System.out.println("===PRINTING THE SIZE OF THE LARGEST FILE IN THE FILE SYSTEM===");
+        System.out.println("\n===PRINTING THE SIZE OF THE LARGEST FILE IN THE FILE SYSTEM===");
         System.out.println(fileSystem.findLargestFile());
 
 

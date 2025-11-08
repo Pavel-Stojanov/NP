@@ -19,8 +19,8 @@ public class File implements IFile {
     }
 
     @Override
-    public String getFileInfo(IFile f) {
-        return String.format("\tFile name: %10s File size: %10d", name, f.getFileSize()) ;
+    public String getFileInfo(String indent) {
+        return String.format("%sFile name: %10s File size: %10d",indent, name, size) ;
     }
 
     @Override
@@ -30,6 +30,6 @@ public class File implements IFile {
 
     @Override
     public long findLargestFile() {
-        return 0;
+        return size;
     }
 }
