@@ -4,41 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="8 fixes and 9">
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Triple10/Triple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/Triple10/TripleTest.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="name fixes and 10">
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Evaluator11/Evaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Evaluator11/EvaluatorBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Evaluator11/EvaluatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/Evaluator11/IEvaluator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate/Archive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate8/Archive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate/ArchiveStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate8/ArchiveStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate/ArchiveStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate8/ArchiveStoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate/LockedArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate8/LockedArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate/NonExistingItemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate8/NonExistingItemException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate/SpecialArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate8/SpecialArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate/Archive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate9/Archive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate/ArchiveStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate9/ArchiveStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate/ArchiveStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate9/ArchiveStoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate/LockedArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate9/LockedArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate/NonExistingItemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate9/NonExistingItemException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate/SpecialArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate9/SpecialArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/Canvas/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Canvas6/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/Canvas/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Canvas6/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/Canvas/Scalable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Canvas6/Scalable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/Canvas/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Canvas6/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/Canvas/ShapesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Canvas6/ShapesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/Canvas/Stackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Canvas6/Stackable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem3/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/FileNameExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem3/FileNameExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/FileSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem3/FileSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/FileSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem3/FileSystemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/Folder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem3/Folder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/FileSystem/IFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem3/IFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/Logger/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Logger4/LoggerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/MinMax/MinAndMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MinMax5/MinAndMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/MinMax/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MinMax5/MinMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/TimeTable/InvalidTimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/TimeTable7/InvalidTimeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/TimeTable/TimeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/TimeTable7/TimeTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/TimeTable/TimesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/TimeTable7/TimesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vezbi/TimeTable/UnsupportedFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/TimeTable7/UnsupportedFormatException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,11 +78,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="vezbi.Evaluator11" />
       <recent name="vezbi.Triple10" />
       <recent name="vezbi.ArchiveStore" />
       <recent name="vezbi.TimeTable" />
       <recent name="vezbi.Shapes2" />
-      <recent name="vezbi.Shapes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\NP\src\vezbi\ArchiveStoreLocalDate" />
@@ -138,7 +109,7 @@
       <workItem from="1762528606751" duration="8517000" />
       <workItem from="1762538091119" duration="6809000" />
       <workItem from="1762616803069" duration="11615000" />
-      <workItem from="1762644009225" duration="3526000" />
+      <workItem from="1762644009225" duration="4665000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -212,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762646899323</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="name fixes and 10">
+      <option name="closed" value="true" />
+      <created>1762647623397</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762647623397</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +207,8 @@
     <MESSAGE value="7" />
     <MESSAGE value="8" />
     <MESSAGE value="8 fixes and 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="8 fixes and 9" />
+    <MESSAGE value="name fixes and 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="name fixes and 10" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
