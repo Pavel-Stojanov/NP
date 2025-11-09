@@ -1,4 +1,4 @@
-package vezbi.ArchiveStore;
+package vezbi.ArchiveStoreDate;
 
 import java.util.Date;
 

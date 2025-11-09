@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="7">
-      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStore/Archive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStore/ArchiveStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStore/ArchiveStoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStore/LockedArchive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStore/NonExistingItemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStore/SpecialArchive.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="8">
+      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate/Archive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate/ArchiveStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate/ArchiveStoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate/LockedArchive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate/NonExistingItemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate/SpecialArchive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStore/Archive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate/Archive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStore/ArchiveStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate/ArchiveStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStore/ArchiveStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate/ArchiveStoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStore/LockedArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate/LockedArchive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStore/NonExistingItemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate/NonExistingItemException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vezbi/ArchiveStore/SpecialArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate/SpecialArchive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +74,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/NP/src/vezbi/ArchiveStoreLocalDate",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,6 +91,9 @@
       <recent name="vezbi.Shapes2" />
       <recent name="vezbi.Shapes" />
       <recent name="vezbi.MinMax" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\NP\src\vezbi\ArchiveStoreLocalDate" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -107,7 +117,7 @@
       <workItem from="1762528606751" duration="8517000" />
       <workItem from="1762538091119" duration="6809000" />
       <workItem from="1762616803069" duration="11615000" />
-      <workItem from="1762644009225" duration="2239000" />
+      <workItem from="1762644009225" duration="2559000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -165,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762635427511</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="8">
+      <option name="closed" value="true" />
+      <created>1762646306189</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762646306189</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +197,8 @@
     <MESSAGE value="filesystem fixes" />
     <MESSAGE value="6" />
     <MESSAGE value="7" />
-    <option name="LAST_COMMIT_MESSAGE" value="7" />
+    <MESSAGE value="8" />
+    <option name="LAST_COMMIT_MESSAGE" value="8" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

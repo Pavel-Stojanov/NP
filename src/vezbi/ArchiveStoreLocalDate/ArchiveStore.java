@@ -1,7 +1,7 @@
-package vezbi.ArchiveStore;
+package vezbi.ArchiveStoreLocalDate;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -14,20 +14,20 @@ public class ArchiveStore {
         log = new StringBuilder();
     }
 
-    public void archiveItem(Archive item, Date date) {
+    public void archiveItem(Archive item, LocalDate date) {
         item.setDateArchived(date);
         archives.add(item);
         log.append(String.format("Item %d archived at %s\n", item.getId(), date));
     }
 
-    public void openItem(int id, Date date) throws NonExistingItemException {
+    public void openItem(int id, LocalDate date) throws NonExistingItemException {
         Optional<Archive> item = archives.stream()
                 .filter(a->a.getId()==id)
                 .findFirst();
         if (item.isPresent()){
             item.get().open(date,log);
         }else{
-            throw new NonExistingItemException(String.format("Item %d doesn't exist\n", id));
+            throw new NonExistingItemException(String.format("Item with id %d doesn't exist", id));
         }
     }
 

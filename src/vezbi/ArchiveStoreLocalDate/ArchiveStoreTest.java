@@ -1,12 +1,13 @@
-package vezbi.ArchiveStore;
+package vezbi.ArchiveStoreLocalDate;
 
-import java.util.Date;
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ArchiveStoreTest {
     public static void main(String[] args) {
         ArchiveStore store = new ArchiveStore();
-        Date date = new Date(113, 10, 7);
+        LocalDate date = LocalDate.of(2013, 10, 7);
         Scanner scanner = new Scanner(System.in);
         scanner.nextLine();
         int n = scanner.nextInt();
@@ -16,8 +17,8 @@ public class ArchiveStoreTest {
         for (i = 0; i < n; ++i) {
             int id = scanner.nextInt();
             long days = scanner.nextLong();
-            Date dateToOpen = new Date(date.getTime() + (days * 24 * 60
-                    * 60 * 1000));
+
+            LocalDate dateToOpen = date.atStartOfDay().plusSeconds(days * 24 * 60 * 60).toLocalDate();
             LockedArchive lockedArchive = new LockedArchive(id, dateToOpen);
             store.archiveItem(lockedArchive, date);
         }
@@ -36,9 +37,6 @@ public class ArchiveStoreTest {
         scanner.nextLine();
         while(scanner.hasNext()) {
             int open = scanner.nextInt();
-            if (open == 999){
-                break;
-            }
             try {
                 store.openItem(open, date);
             } catch(NonExistingItemException e) {
@@ -48,7 +46,3 @@ public class ArchiveStoreTest {
         System.out.println(store.getLog());
     }
 }
-
-// вашиот код овде
-
-
