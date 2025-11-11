@@ -39,7 +39,7 @@ public class Applicant {
     }
 
     public double calculatePoints(){
-        double points = gpa*12;
+        double points = 0;
         Faculty faculty = studyProgramme.getFaculty();
         for (SubjectWithGrade sg : subjectsWithGrade){
             if (faculty.getAppropriateSubjects().contains(sg.getSubject())){
@@ -48,6 +48,7 @@ public class Applicant {
                 points += sg.getGrade()*1.2;
             }
         }
+        points+=gpa*12;
         return points;
     }
 
