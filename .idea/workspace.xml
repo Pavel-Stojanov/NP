@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="lab3 final fixes">
-      <change afterPath="$PROJECT_DIR$/src/kol1/GenericFraction12/GenericFraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/GenericFraction12/GenericFractionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/GenericFraction12/ZeroDenominatorException.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="12">
+      <change afterPath="$PROJECT_DIR$/src/kol1/ApplicantEvaluation13/ApplicantEvaluationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Exception" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -114,7 +112,7 @@
       <workItem from="1762801221185" duration="9932000" />
       <workItem from="1762816696709" duration="1800000" />
       <workItem from="1762892124744" duration="543000" />
-      <workItem from="1762898229602" duration="1740000" />
+      <workItem from="1762898229602" duration="2878000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -212,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762898248987</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="12">
+      <option name="closed" value="true" />
+      <created>1762900174295</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762900174295</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +237,8 @@
     <MESSAGE value="name fixes and 10" />
     <MESSAGE value="11" />
     <MESSAGE value="lab3 final fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab3 final fixes" />
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
