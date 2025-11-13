@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="12">
-      <change afterPath="$PROJECT_DIR$/src/kol1/ApplicantEvaluation13/ApplicantEvaluationTest.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="13">
+      <change afterPath="$PROJECT_DIR$/src/kol1/BlockContainer38/BlockContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/BlockContainer38/BlockContainerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/Component14/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/Component14/ComponentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/Component14/InvalidPositionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/Component14/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Exception" />
         <option value="Class" />
+        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -52,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArchiveStoreTest.executor": "Debug",
+    "Application.BlockContainerTest.executor": "Debug",
     "Application.EnrollmentsTest.executor": "Run",
     "Application.FileSystemTest.executor": "Run",
     "Application.GenericFractionTest.executor": "Debug",
@@ -77,11 +83,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="kol1.Component14" />
+      <recent name="kol1.BlockContainer38" />
       <recent name="kol1.GenericFraction12" />
       <recent name="lab3.EnrollmentSystem3" />
       <recent name="lab3.AdNetwork" />
-      <recent name="lab3.MovieTheater" />
-      <recent name="vezbi.Evaluator11" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\NP\src\vezbi\ArchiveStoreLocalDate" />
@@ -112,7 +118,8 @@
       <workItem from="1762801221185" duration="9932000" />
       <workItem from="1762816696709" duration="1800000" />
       <workItem from="1762892124744" duration="543000" />
-      <workItem from="1762898229602" duration="2878000" />
+      <workItem from="1762898229602" duration="3530000" />
+      <workItem from="1763056363202" duration="4046000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -218,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762900174295</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="13">
+      <option name="closed" value="true" />
+      <created>1762901408793</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1762901408793</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +253,8 @@
     <MESSAGE value="11" />
     <MESSAGE value="lab3 final fixes" />
     <MESSAGE value="12" />
-    <option name="LAST_COMMIT_MESSAGE" value="12" />
+    <MESSAGE value="13" />
+    <option name="LAST_COMMIT_MESSAGE" value="13" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
