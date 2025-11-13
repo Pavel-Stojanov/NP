@@ -35,16 +35,16 @@ public class GenericCollection<T extends Comparable<T> & IHasTimestamp> {
                 .collect(Collectors.toList());
     }
 
-    public TreeMap<String, Set<T>> byMonthAndDay() {
-        return elements.values().stream()
-                .flatMap(List::stream)
-                .collect(Collectors
-                        .groupingBy(e -> String.format("%02d-%02d",
-                                        e.getTimestamp().getMonthValue(),
-                                        e.getTimestamp().getDayOfMonth()),
-                                TreeMap::new,
-                                Collectors.toCollection(TreeSet::new)));
-
+    public Map<String, Set<T>> byMonthAndDay() {
+        Map<String, Set<T>> result = new TreeMap<>();
+        for (T item : elements.values().stream().flatMap(List::stream).collect(Collectors.toList())) {
+            LocalDateTime timestamp = item.getTimestamp();
+            int monthValue = timestamp.getMonthValue();
+            int dayOfMonth = timestamp.getDayOfMonth();
+            String date = String.format("%02d-%02d", monthValue, dayOfMonth);
+            result.computeIfAbsent(date, k -> new TreeSet<>(Comparator.reverseOrder())).add(item);
+        }
+        return result;
     }
 
     public Map<Integer, Long> countByYear() {
