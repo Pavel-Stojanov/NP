@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="13">
-      <change afterPath="$PROJECT_DIR$/src/kol1/BlockContainer38/BlockContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/BlockContainer38/BlockContainerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/Component14/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/Component14/ComponentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/Component14/InvalidPositionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/Component14/Window.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="14 and 38">
+      <change afterPath="$PROJECT_DIR$/src/kol1/GenericCollection27/GenericCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/GenericCollection27/GenericCollectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Exception" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,8 +54,10 @@
   "keyToString": {
     "Application.ArchiveStoreTest.executor": "Debug",
     "Application.BlockContainerTest.executor": "Debug",
+    "Application.ComponentTest.executor": "Debug",
     "Application.EnrollmentsTest.executor": "Run",
     "Application.FileSystemTest.executor": "Run",
+    "Application.GenericCollectionTest.executor": "Debug",
     "Application.GenericFractionTest.executor": "Debug",
     "Application.LocalDateTest.executor": "Run",
     "Application.LocalTimeTest.executor": "Run",
@@ -83,11 +81,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="kol1.GenericCollection27" />
       <recent name="kol1.Component14" />
       <recent name="kol1.BlockContainer38" />
       <recent name="kol1.GenericFraction12" />
       <recent name="lab3.EnrollmentSystem3" />
-      <recent name="lab3.AdNetwork" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\NP\src\vezbi\ArchiveStoreLocalDate" />
@@ -119,7 +117,7 @@
       <workItem from="1762816696709" duration="1800000" />
       <workItem from="1762892124744" duration="543000" />
       <workItem from="1762898229602" duration="3530000" />
-      <workItem from="1763056363202" duration="4046000" />
+      <workItem from="1763056363202" duration="6440000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -233,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762901408793</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="14 and 38">
+      <option name="closed" value="true" />
+      <created>1763060600141</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1763060600141</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +260,8 @@
     <MESSAGE value="lab3 final fixes" />
     <MESSAGE value="12" />
     <MESSAGE value="13" />
-    <option name="LAST_COMMIT_MESSAGE" value="13" />
+    <MESSAGE value="14 and 38" />
+    <option name="LAST_COMMIT_MESSAGE" value="14 and 38" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
