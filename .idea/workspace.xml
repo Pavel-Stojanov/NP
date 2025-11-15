@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="25">
-      <change afterPath="$PROJECT_DIR$/src/kol1/PayrollSystem28/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/PayrollSystem28/EmployeeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/PayrollSystem28/FreelanceEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/PayrollSystem28/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/PayrollSystem28/PayrollSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/PayrollSystem28/PayrollSystemTest.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="28">
+      <change afterPath="$PROJECT_DIR$/src/kol1/Car36/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/Car36/CarCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/Car36/CarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +56,7 @@
     "Application.ArchiveStoreTest.executor": "Debug",
     "Application.BlockContainerTest.executor": "Debug",
     "Application.BooksTest.executor": "Debug",
+    "Application.CarTest.executor": "Debug",
     "Application.ComponentTest.executor": "Debug",
     "Application.DiscountsTest.executor": "Debug",
     "Application.EnrollmentsTest.executor": "Run",
@@ -129,7 +127,8 @@
       <workItem from="1762892124744" duration="543000" />
       <workItem from="1762898229602" duration="3530000" />
       <workItem from="1763056363202" duration="13304000" />
-      <workItem from="1763151797266" duration="12483000" />
+      <workItem from="1763151797266" duration="12650000" />
+      <workItem from="1763215962070" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -299,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763169863973</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="28">
+      <option name="closed" value="true" />
+      <created>1763175035536</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1763175035536</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +345,8 @@
     <MESSAGE value="27 fixes" />
     <MESSAGE value="24" />
     <MESSAGE value="25" />
-    <option name="LAST_COMMIT_MESSAGE" value="25" />
+    <MESSAGE value="28" />
+    <option name="LAST_COMMIT_MESSAGE" value="28" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
