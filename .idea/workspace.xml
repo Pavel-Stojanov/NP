@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="24">
-      <change afterPath="$PROJECT_DIR$/src/kol1/Discounts25/DiscountAndPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/Discounts25/Discounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/Discounts25/DiscountsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/Discounts25/Store.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="25">
+      <change afterPath="$PROJECT_DIR$/src/kol1/PayrollSystem28/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/PayrollSystem28/EmployeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/PayrollSystem28/FreelanceEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/PayrollSystem28/HourlyEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/PayrollSystem28/PayrollSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/PayrollSystem28/PayrollSystemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +69,7 @@
     "Application.LocalTimeTest.executor": "Run",
     "Application.MinAndMax.executor": "Debug",
     "Application.MojDDVTest.executor": "Debug",
+    "Application.PayrollSystemTest.executor": "Debug",
     "Application.ResizableArrayTest.executor": "Debug",
     "Application.SchedulerTest.executor": "Debug",
     "Application.TimesTest.executor": "Debug",
@@ -86,11 +89,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="kol1.PayrollSystem28" />
       <recent name="kol1.Discounts25" />
       <recent name="kol1.BookCollection24" />
       <recent name="kol1.MojDDV16" />
       <recent name="kol1.WeatherStation15" />
-      <recent name="kol1.GenericCollection27" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\NP\src\vezbi\ArchiveStoreLocalDate" />
@@ -126,7 +129,7 @@
       <workItem from="1762892124744" duration="543000" />
       <workItem from="1762898229602" duration="3530000" />
       <workItem from="1763056363202" duration="13304000" />
-      <workItem from="1763151797266" duration="7886000" />
+      <workItem from="1763151797266" duration="12483000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -288,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763153642677</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="25">
+      <option name="closed" value="true" />
+      <created>1763169863973</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1763169863973</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +337,8 @@
     <MESSAGE value="16" />
     <MESSAGE value="27 fixes" />
     <MESSAGE value="24" />
-    <option name="LAST_COMMIT_MESSAGE" value="24" />
+    <MESSAGE value="25" />
+    <option name="LAST_COMMIT_MESSAGE" value="25" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
