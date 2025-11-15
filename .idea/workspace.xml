@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="27 fixes">
-      <change afterPath="$PROJECT_DIR$/src/kol1/BookCollection24/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/BookCollection24/BookCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kol1/BookCollection24/BooksTest.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="24">
+      <change afterPath="$PROJECT_DIR$/src/kol1/Discounts25/DiscountAndPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/Discounts25/Discounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/Discounts25/DiscountsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kol1/Discounts25/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +58,7 @@
     "Application.BlockContainerTest.executor": "Debug",
     "Application.BooksTest.executor": "Debug",
     "Application.ComponentTest.executor": "Debug",
+    "Application.DiscountsTest.executor": "Debug",
     "Application.EnrollmentsTest.executor": "Run",
     "Application.FileSystemTest.executor": "Run",
     "Application.GenericCollectionTest.executor": "Debug",
@@ -84,11 +86,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="kol1.Discounts25" />
       <recent name="kol1.BookCollection24" />
       <recent name="kol1.MojDDV16" />
       <recent name="kol1.WeatherStation15" />
       <recent name="kol1.GenericCollection27" />
-      <recent name="kol1.Component14" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\NP\src\vezbi\ArchiveStoreLocalDate" />
@@ -124,7 +126,7 @@
       <workItem from="1762892124744" duration="543000" />
       <workItem from="1762898229602" duration="3530000" />
       <workItem from="1763056363202" duration="13304000" />
-      <workItem from="1763151797266" duration="1805000" />
+      <workItem from="1763151797266" duration="7886000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -278,11 +280,30 @@
       <option name="project" value="LOCAL" />
       <updated>1763075800157</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="24">
+      <option name="closed" value="true" />
+      <created>1763153642677</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1763153642677</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -304,7 +325,8 @@
     <MESSAGE value="15" />
     <MESSAGE value="16" />
     <MESSAGE value="27 fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="27 fixes" />
+    <MESSAGE value="24" />
+    <option name="LAST_COMMIT_MESSAGE" value="24" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
