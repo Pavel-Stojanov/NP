@@ -1,4 +1,4 @@
-package lab4.Sheduler;
+package lab4.Scheduler;
 
 import java.util.Date;
 import java.util.ArrayList;
