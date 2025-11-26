@@ -4,11 +4,13 @@ import java.util.Date;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Collections;
+import java.util.TimeZone;
 
 public class SchedulerTest {
 
 
     public static void main(String[] args) {
+        TimeZone.setDefault(TimeZone.getTimeZone("GMT"));
         Scanner jin = new Scanner(System.in);
         int k = jin.nextInt();
         if ( k == 0 ) {
