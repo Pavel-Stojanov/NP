@@ -4,101 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="lab4">
-      <change afterPath="$PROJECT_DIR$/src/lab6/UniversityTest.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="lab6">
+      <change afterPath="$PROJECT_DIR$/src/lab5/Anagrams/Anagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab5/ChatSystem/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab5/ChatSystem/ChatSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab5/ChatSystem/ChatSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab5/ChatSystem/NoSuchRoomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab5/ChatSystem/NoSuchUserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab5/ChatSystem/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab5/LibrarySystem/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab5/LibrarySystem/LibrarySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab5/LibrarySystem/LibraryTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab5/LibrarySystem/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab7/BankBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab7/FakeApiPing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab7/TextCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Airports37/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Airports37/Airport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Airports37/Airports.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Airports37/Airports.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Airports37/AirportsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Airports37/AirportsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Airports37/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Airports37/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ApplicantEvaluation13/ApplicantEvaluationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ApplicantEvaluation13/ApplicantEvaluationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ArchiveStoreDate8/Archive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate8/Archive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ArchiveStoreDate8/ArchiveStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate8/ArchiveStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ArchiveStoreDate8/ArchiveStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate8/ArchiveStoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ArchiveStoreDate8/LockedArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate8/LockedArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ArchiveStoreDate8/NonExistingItemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate8/NonExistingItemException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ArchiveStoreDate8/SpecialArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreDate8/SpecialArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ArchiveStoreLocalDate9/Archive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate9/Archive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ArchiveStoreLocalDate9/ArchiveStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate9/ArchiveStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ArchiveStoreLocalDate9/ArchiveStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate9/ArchiveStoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ArchiveStoreLocalDate9/LockedArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate9/LockedArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ArchiveStoreLocalDate9/NonExistingItemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate9/NonExistingItemException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/ArchiveStoreLocalDate9/SpecialArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/ArchiveStoreLocalDate9/SpecialArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/BlockContainer38/BlockContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/BlockContainer38/BlockContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/BlockContainer38/BlockContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/BlockContainer38/BlockContainerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/BookCollection24/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/BookCollection24/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/BookCollection24/BookCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/BookCollection24/BookCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/BookCollection24/BooksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/BookCollection24/BooksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Canvas6/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Canvas6/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Canvas6/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Canvas6/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Canvas6/Scalable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Canvas6/Scalable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Canvas6/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Canvas6/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Canvas6/ShapesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Canvas6/ShapesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Canvas6/Stackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Canvas6/Stackable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Car36/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Car36/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Car36/CarCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Car36/CarCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Car36/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Car36/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Component14/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Component14/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Component14/ComponentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Component14/ComponentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Component14/InvalidPositionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Component14/InvalidPositionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Component14/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Component14/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Discounts25/DiscountAndPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Discounts25/DiscountAndPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Discounts25/Discounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Discounts25/Discounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Discounts25/DiscountsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Discounts25/DiscountsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Discounts25/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Discounts25/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Evaluator11/Evaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Evaluator11/Evaluator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Evaluator11/EvaluatorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Evaluator11/EvaluatorBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Evaluator11/EvaluatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Evaluator11/EvaluatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Evaluator11/IEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Evaluator11/IEvaluator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/FileSystem3/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem3/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/FileSystem3/FileNameExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem3/FileNameExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/FileSystem3/FileSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem3/FileSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/FileSystem3/FileSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem3/FileSystemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/FileSystem3/Folder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem3/Folder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/FileSystem3/IFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/FileSystem3/IFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/GenericCollection27/GenericCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/GenericCollection27/GenericCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/GenericCollection27/GenericCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/GenericCollection27/GenericCollectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/GenericFraction12/GenericFraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/GenericFraction12/GenericFraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/GenericFraction12/GenericFractionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/GenericFraction12/GenericFractionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/GenericFraction12/ZeroDenominatorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/GenericFraction12/ZeroDenominatorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Logger4/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Logger4/LoggerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/MinMax5/MinAndMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MinMax5/MinAndMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/MinMax5/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MinMax5/MinMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/MojDDV16/AmountNotAllowedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MojDDV16/AmountNotAllowedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/MojDDV16/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MojDDV16/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/MojDDV16/MojDDV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MojDDV16/MojDDV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/MojDDV16/MojDDVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MojDDV16/MojDDVTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/MojDDV16/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MojDDV16/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/MojDDV17/AmountNotAllowedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MojDDV17/AmountNotAllowedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/MojDDV17/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MojDDV17/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/MojDDV17/MojDDV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MojDDV17/MojDDV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/MojDDV17/MojDDVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MojDDV17/MojDDVTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/MojDDV17/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/MojDDV17/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/PayrollSystem28/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/PayrollSystem28/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/PayrollSystem28/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/PayrollSystem28/EmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/PayrollSystem28/FreelanceEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/PayrollSystem28/FreelanceEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/PayrollSystem28/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/PayrollSystem28/HourlyEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/PayrollSystem28/PayrollSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/PayrollSystem28/PayrollSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/PayrollSystem28/PayrollSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/PayrollSystem28/PayrollSystemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Shapes1/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Shapes1/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Shapes1/Shapes1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Shapes1/Shapes1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Shapes1/ShapesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Shapes1/ShapesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Shapes2/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Shapes2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Shapes2/IrregularCanvasException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/IrregularCanvasException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Shapes2/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Shapes2/Shapes2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Shapes2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Shapes2/ShapesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/ShapesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Shapes2/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Shapes2/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/TimeTable7/InvalidTimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/TimeTable7/InvalidTimeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/TimeTable7/TimeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/TimeTable7/TimeTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/TimeTable7/TimesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/TimeTable7/TimesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/TimeTable7/UnsupportedFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/TimeTable7/UnsupportedFormatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Triple10/Triple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Triple10/Triple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/Triple10/TripleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/Triple10/TripleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/WeatherStation15/Measurement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/WeatherStation15/Measurement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/WeatherStation15/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/WeatherStation15/WeatherStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kol1/WeatherStation15/WeatherStationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vezbi/WeatherStation15/WeatherStationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,10 +50,10 @@
     &quot;accountId&quot;: &quot;f347cf46-22c9-43c2-9da6-6819a75f41d2&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -140,56 +61,63 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="354jkXuaoSziFiQ8d88Ff418FZu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AirportsTest.executor": "Debug",
-    "Application.ArchiveStoreTest.executor": "Debug",
-    "Application.BlockContainerTest.executor": "Debug",
-    "Application.BooksTest.executor": "Debug",
-    "Application.CarTest.executor": "Debug",
-    "Application.ComponentTest.executor": "Debug",
-    "Application.DiscountsTest.executor": "Debug",
-    "Application.EnrollmentsTest.executor": "Run",
-    "Application.FileSystemTest.executor": "Run",
-    "Application.GenericCollectionTest.executor": "Debug",
-    "Application.GenericFractionTest.executor": "Debug",
-    "Application.LocalDateTest.executor": "Run",
-    "Application.LocalTimeTest.executor": "Run",
-    "Application.MinAndMax.executor": "Debug",
-    "Application.MojDDVTest.executor": "Debug",
-    "Application.PayrollSystemTest.executor": "Debug",
-    "Application.ResizableArrayTest.executor": "Debug",
-    "Application.SchedulerTest.executor": "Run",
-    "Application.SetsTest.executor": "Run",
-    "Application.TermFrequencyTest.executor": "Run",
-    "Application.TimesTest.executor": "Debug",
-    "Application.UniversityTest.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/NP/src/vezbi/ArchiveStoreLocalDate",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.android.studio.ml.bot.mainConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AirportsTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Anagrams.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ArchiveStoreTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BankBalance.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BlockContainerTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BooksTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CarTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ChatSystemTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ComponentTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DiscountsTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EnrollmentsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FakeApiPing.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FileSystemTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericCollectionTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GenericFractionTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LocalDateTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalTimeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinAndMax.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MojDDVTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PayrollSystemTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ResizableArrayTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SchedulerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TermFrequencyTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextCounter.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TimesTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.UniversityTest.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/NP/src/vezbi/ArchiveStoreLocalDate&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.android.studio.ml.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="lab5.LibrarySystem" />
+      <recent name="lab5.ChatSystem" />
       <recent name="lab4.TermFrequency" />
       <recent name="kol1.Airports37" />
       <recent name="kol1.PayrollSystem28" />
-      <recent name="kol1.Discounts25" />
-      <recent name="kol1.BookCollection24" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\NP\src\vezbi\ArchiveStoreLocalDate" />
@@ -230,7 +158,10 @@
       <workItem from="1764158441444" duration="5761000" />
       <workItem from="1764198307128" duration="208000" />
       <workItem from="1764710247305" duration="115000" />
-      <workItem from="1765307018033" duration="3042000" />
+      <workItem from="1765307018033" duration="3397000" />
+      <workItem from="1765923607986" duration="23000" />
+      <workItem from="1766249763214" duration="7815000" />
+      <workItem from="1766422896567" duration="473000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -448,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764198417476</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="lab6">
+      <option name="closed" value="true" />
+      <created>1765310421634</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1765310421634</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +405,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
     <MESSAGE value="queue fixes" />
     <MESSAGE value="lab2 final commit" />
     <MESSAGE value="vezbi 1-5 commit" />
@@ -491,7 +429,8 @@
     <MESSAGE value="36" />
     <MESSAGE value="37" />
     <MESSAGE value="lab4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab4" />
+    <MESSAGE value="lab6" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
