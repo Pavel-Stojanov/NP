@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="lab6">
-      <change afterPath="$PROJECT_DIR$/src/lab5/Anagrams/Anagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/ChatSystem/ChatRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/ChatSystem/ChatSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/ChatSystem/ChatSystemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/ChatSystem/NoSuchRoomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/ChatSystem/NoSuchUserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/ChatSystem/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/LibrarySystem/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/LibrarySystem/LibrarySystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/LibrarySystem/LibraryTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/LibrarySystem/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab7/BankBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab7/FakeApiPing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab7/TextCounter.java" afterDir="false" />
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="lab8">
+      <change afterPath="$PROJECT_DIR$/src/lab8/GameRoomService/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/MP3Player/IPlayerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/MP3Player/MP3Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/MP3Player/PatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/MP3Player/PausedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/MP3Player/PlayingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/MP3Player/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/MP3Player/StoppedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/Trivia/TriviaGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab5/LibrarySystem/LibraryTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab5/LibrarySystem/LibraryTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Exception" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,6 +50,10 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -61,63 +61,72 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="354jkXuaoSziFiQ8d88Ff418FZu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AirportsTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Anagrams.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ArchiveStoreTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BankBalance.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BlockContainerTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BooksTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CarTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ChatSystemTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ComponentTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DiscountsTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EnrollmentsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FakeApiPing.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FileSystemTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericCollectionTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.GenericFractionTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LocalDateTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalTimeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinAndMax.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MojDDVTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.PayrollSystemTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ResizableArrayTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SchedulerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TermFrequencyTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TextCounter.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TimesTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.UniversityTest.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/NP/src/vezbi/ArchiveStoreLocalDate&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.android.studio.ml.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AirportsTest.executor": "Debug",
+    "Application.Anagrams.executor": "Debug",
+    "Application.ArchiveStoreTest.executor": "Debug",
+    "Application.BankBalance.executor": "Debug",
+    "Application.BlockContainerTest.executor": "Debug",
+    "Application.BooksTest.executor": "Debug",
+    "Application.CarTest.executor": "Debug",
+    "Application.ChatSystemTest.executor": "Debug",
+    "Application.ComponentTest.executor": "Debug",
+    "Application.DiscountsTest.executor": "Debug",
+    "Application.EnrollmentsTest.executor": "Run",
+    "Application.FakeApiPing.executor": "Debug",
+    "Application.FileSystemTest.executor": "Run",
+    "Application.GenericCollectionTest.executor": "Debug",
+    "Application.GenericFractionTest.executor": "Debug",
+    "Application.LocalDateTest.executor": "Run",
+    "Application.LocalTimeTest.executor": "Run",
+    "Application.Main.executor": "Debug",
+    "Application.MinAndMax.executor": "Debug",
+    "Application.MojDDVTest.executor": "Debug",
+    "Application.PatternTest.executor": "Debug",
+    "Application.PayrollSystemTest.executor": "Debug",
+    "Application.ResizableArrayTest.executor": "Debug",
+    "Application.SchedulerTest.executor": "Run",
+    "Application.SetsTest.executor": "Run",
+    "Application.TermFrequencyTest.executor": "Run",
+    "Application.TextCounter.executor": "Debug",
+    "Application.TimesTest.executor": "Debug",
+    "Application.TriviaGame.executor": "Debug",
+    "Application.UniversityTest.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/NP/src/vezbi/ArchiveStoreLocalDate",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="lab8.MP3Player" />
       <recent name="lab5.LibrarySystem" />
       <recent name="lab5.ChatSystem" />
       <recent name="lab4.TermFrequency" />
       <recent name="kol1.Airports37" />
-      <recent name="kol1.PayrollSystem28" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\NP\src\vezbi\ArchiveStoreLocalDate" />
@@ -129,8 +138,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
       </set>
     </attachedChunks>
   </component>
@@ -162,6 +171,7 @@
       <workItem from="1765923607986" duration="23000" />
       <workItem from="1766249763214" duration="7815000" />
       <workItem from="1766422896567" duration="473000" />
+      <workItem from="1766532627921" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -405,7 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="queue fixes" />
     <MESSAGE value="lab2 final commit" />
     <MESSAGE value="vezbi 1-5 commit" />
     <MESSAGE value="filesystem fixes" />
@@ -430,7 +439,8 @@
     <MESSAGE value="37" />
     <MESSAGE value="lab4" />
     <MESSAGE value="lab6" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab6" />
+    <MESSAGE value="lab8" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab8" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
