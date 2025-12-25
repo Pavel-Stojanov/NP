@@ -5,14 +5,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Map;
 import java.util.concurrent.*;
-
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
 
 enum ActionType {
     JOIN_GAME,
     LEAVE_GAME,
     ATTACK
 }
-
 
 class Player {
     private final String id;
@@ -23,9 +23,16 @@ class Player {
         this.score = 0;
     }
 
-    // TODO: Implement addScore function
     public synchronized void addScore(int num) {
         this.score += num;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public synchronized int getScore() {
+        return score;
     }
 
     @Override
@@ -35,10 +42,7 @@ class Player {
                 ", score=" + score +
                 '}';
     }
-
-
 }
-
 
 class PlayerAction {
     private final String playerId;
@@ -59,14 +63,10 @@ class PlayerAction {
 
     public int getProcessingTime() {
         switch (action) {
-            case JOIN_GAME:
-                return 20;
-            case LEAVE_GAME:
-                return 30;
-            case ATTACK:
-                return 5;
-            default:
-                return 0;
+            case JOIN_GAME: return 20;
+            case LEAVE_GAME: return 30;
+            case ATTACK: return 5;
+            default: return 0;
         }
     }
 
@@ -89,26 +89,47 @@ class RoomAction {
     }
 }
 
+class GlobalLeaderboard {
+    private final ConcurrentHashMap<String, Integer> globalScores = new ConcurrentHashMap<>();
+    private static final int K = 5;
+
+    public void recordScore(String playerId, int pointsAdded) {
+        globalScores.merge(playerId, pointsAdded, Integer::sum);
+        printLeaderboard();
+    }
+
+    private void printLeaderboard() {
+        synchronized (System.out) {
+            System.out.println("\n--- GLOBAL LEADERBOARD (Top " + K + ") ---");
+
+            globalScores.entrySet().stream()
+                    .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
+                    .limit(K)
+                    .forEach(entry ->
+                            System.out.printf("%s: %d pts%n", entry.getKey(), entry.getValue())
+                    );
+
+            System.out.println("-------------------------------------\n");
+        }
+    }
+}
 
 class GameRoom {
 
     public final String roomId;
     public final Map<String, Player> players = new ConcurrentHashMap<>();
-
-    private final BlockingQueue<PlayerAction> actionQueue =
-            new LinkedBlockingQueue<>();
-
-    private final ExecutorService executor =
-            Executors.newSingleThreadExecutor();
-
+    private final BlockingQueue<PlayerAction> actionQueue = new LinkedBlockingQueue<>();
+    private final ExecutorService executor = Executors.newSingleThreadExecutor();
     public volatile boolean running = true;
 
-    public GameRoom(String roomId) {
+    private final GlobalLeaderboard leaderboard;
+
+    public GameRoom(String roomId, GlobalLeaderboard leaderboard) {
         this.roomId = roomId;
+        this.leaderboard = leaderboard;
         startProcessor();
     }
 
-    // TODO: Implement startProcessor
     private void startProcessor() {
         executor.submit(() -> {
             while (running || !actionQueue.isEmpty()) {
@@ -143,30 +164,27 @@ class GameRoom {
                         action.getPlayerId(),
                         new Player(action.getPlayerId())
                 );
-                System.out.println("[" + roomId + "] JOIN: "
-                        + action.getPlayerId());
+                System.out.println("[" + roomId + "] JOIN: " + action.getPlayerId());
                 break;
 
             case LEAVE_GAME:
                 if (players.remove(action.getPlayerId()) != null) {
-                    System.out.println("[" + roomId + "] LEAVE: "
-                            + action.getPlayerId());
+                    System.out.println("[" + roomId + "] LEAVE: " + action.getPlayerId());
                 } else {
-                    System.out.println("[" + roomId
-                            + "] LEAVE IGNORED (not in room): "
-                            + action.getPlayerId());
+                    System.out.println("[" + roomId + "] LEAVE IGNORED (not in room): " + action.getPlayerId());
                 }
                 break;
 
             case ATTACK:
                 Player p = players.get(action.getPlayerId());
                 if (p == null) {
-                    System.out.println("[" + roomId
-                            + "] ATTACK IGNORED (not in room): "
-                            + action.getPlayerId());
+                    System.out.println("[" + roomId + "] ATTACK IGNORED (not in room): " + action.getPlayerId());
                 } else {
-                    p.addScore(10);
+                    int points = 10;
+                    p.addScore(points);
                     System.out.println("[" + roomId + "] ATTACK: " + p);
+
+                    leaderboard.recordScore(action.getPlayerId(), points);
                 }
                 break;
         }
@@ -184,36 +202,33 @@ class GameRoom {
             Thread.currentThread().interrupt();
         }
         System.out.println("[" + roomId + "] FINAL PLAYERS:");
-        players.values().forEach(p ->
-                System.out.println("  " + p));
+        players.values().forEach(p -> System.out.println("  " + p));
     }
 }
 
-
 class GameServer {
 
-    private final BlockingQueue<RoomAction> inputQueue =
-            new LinkedBlockingQueue<>();
-
-    private final ConcurrentHashMap<String, GameRoom> rooms =
-            new ConcurrentHashMap<>();
-
-    private final ExecutorService dispatcher =
-            Executors.newSingleThreadExecutor();
-
+    private final BlockingQueue<RoomAction> inputQueue = new LinkedBlockingQueue<>();
+    private final ConcurrentHashMap<String, GameRoom> rooms = new ConcurrentHashMap<>();
+    private final ExecutorService dispatcher = Executors.newSingleThreadExecutor();
     private volatile boolean running = true;
 
+    private final GlobalLeaderboard globalLeaderboard;
+
     public GameServer() {
+        this.globalLeaderboard = new GlobalLeaderboard();
         startDispatcher();
     }
 
-    // TODO: Implement startDispatcher()
     private void startDispatcher() {
         dispatcher.submit(() -> {
             while (running) {
                 try {
                     RoomAction roomAction = inputQueue.take();
-                    GameRoom room = rooms.computeIfAbsent(roomAction.roomId, GameRoom::new);
+                    GameRoom room = rooms.computeIfAbsent(
+                            roomAction.roomId,
+                            id -> new GameRoom(id, globalLeaderboard)
+                    );
                     room.submitAction(roomAction.action);
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
@@ -227,7 +242,6 @@ class GameServer {
         inputQueue.offer(new RoomAction(roomId, action));
     }
 
-    // TODO: Implement GameServer shutdown() method
     public void shutdown() {
         running = false;
         dispatcher.shutdownNow();
@@ -235,21 +249,14 @@ class GameServer {
     }
 }
 
-
 public class Main {
-
     public static void main(String[] args) throws IOException {
-
         GameServer server = new GameServer();
-
-        BufferedReader reader =
-                new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String line;
         while ((line = reader.readLine()) != null && !line.isBlank()) {
-
             final String input = line.trim();
-
             try {
                 String[] parts = input.split(",");
                 if (parts.length != 3) {
@@ -259,18 +266,13 @@ public class Main {
 
                 String roomId = parts[0].trim();
                 String playerId = parts[1].trim();
-                ActionType actionType =
-                        ActionType.valueOf(parts[2].trim());
+                ActionType actionType = ActionType.valueOf(parts[2].trim());
 
-                PlayerAction action =
-                        new PlayerAction(playerId, actionType);
-
+                PlayerAction action = new PlayerAction(playerId, actionType);
                 server.submit(roomId, action);
 
             } catch (Exception e) {
-                System.err.println(
-                        "Failed to process line: " + input
-                );
+                System.err.println("Failed to process line: " + input);
                 e.printStackTrace();
             }
         }
@@ -284,8 +286,6 @@ public class Main {
         }
 
         server.shutdown();
-
         System.out.println("Game server stopped.");
     }
 }
-
