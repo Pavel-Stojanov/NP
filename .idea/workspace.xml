@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="lab8">
+    <list default="true" id="c9554b5a-2864-4d37-bf8a-bb30215e72df" name="Changes" comment="lab8 gameroom leaderboard added">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab9/DocumentViewer/DocumentViewerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab9/MailingSubscriber/MailingListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab9/XML/XMLTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab8/GameRoomService/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab8/GameRoomService/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,68 +65,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AirportsTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Anagrams.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ArchiveStoreTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BankBalance.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BlockContainerTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BooksTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CarTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ChatSystemTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ComponentTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DiscountsTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EnrollmentsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FakeApiPing.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FileSystemTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericCollectionTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.GenericFractionTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LocalDateTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalTimeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinAndMax.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MojDDVTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.PatternTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.PayrollSystemTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ResizableArrayTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SchedulerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TermFrequencyTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TextCounter.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TimesTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TriviaGame.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.UniversityTest.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/NP/src/vezbi/ArchiveStoreLocalDate&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AirportsTest.executor": "Debug",
+    "Application.Anagrams.executor": "Debug",
+    "Application.ArchiveStoreTest.executor": "Debug",
+    "Application.BankBalance.executor": "Debug",
+    "Application.BlockContainerTest.executor": "Debug",
+    "Application.BooksTest.executor": "Debug",
+    "Application.CarTest.executor": "Debug",
+    "Application.ChatSystemTest.executor": "Debug",
+    "Application.ComponentTest.executor": "Debug",
+    "Application.DiscountsTest.executor": "Debug",
+    "Application.DocumentViewerTest.executor": "Run",
+    "Application.EnrollmentsTest.executor": "Run",
+    "Application.FakeApiPing.executor": "Debug",
+    "Application.FileSystemTest.executor": "Run",
+    "Application.GenericCollectionTest.executor": "Debug",
+    "Application.GenericFractionTest.executor": "Debug",
+    "Application.LocalDateTest.executor": "Run",
+    "Application.LocalTimeTest.executor": "Run",
+    "Application.Main.executor": "Debug",
+    "Application.MinAndMax.executor": "Debug",
+    "Application.MojDDVTest.executor": "Debug",
+    "Application.PatternTest.executor": "Debug",
+    "Application.PayrollSystemTest.executor": "Debug",
+    "Application.ResizableArrayTest.executor": "Debug",
+    "Application.SchedulerTest.executor": "Run",
+    "Application.SetsTest.executor": "Run",
+    "Application.TermFrequencyTest.executor": "Run",
+    "Application.TextCounter.executor": "Debug",
+    "Application.TimesTest.executor": "Debug",
+    "Application.TriviaGame.executor": "Debug",
+    "Application.UniversityTest.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/NP/src/vezbi/ArchiveStoreLocalDate",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/pavel/IdeaProjects/NP/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="lab9.MailingSubscriber" />
       <recent name="lab8.MP3Player" />
       <recent name="lab5.LibrarySystem" />
       <recent name="lab5.ChatSystem" />
       <recent name="lab4.TermFrequency" />
-      <recent name="kol1.Airports37" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\NP\src\vezbi\ArchiveStoreLocalDate" />
@@ -311,17 +318,6 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="NP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="NP" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -364,7 +360,18 @@
       <workItem from="1766588232159" duration="30000" />
       <workItem from="1766588268045" duration="520000" />
       <workItem from="1766594510814" duration="15000" />
-      <workItem from="1766648878908" duration="972000" />
+      <workItem from="1766648878908" duration="1265000" />
+      <workItem from="1766651316740" duration="213000" />
+      <workItem from="1766651537816" duration="134000" />
+      <workItem from="1766653933908" duration="92000" />
+      <workItem from="1766654037280" duration="562000" />
+      <workItem from="1766682038350" duration="22000" />
+      <workItem from="1766748485910" duration="74000" />
+      <workItem from="1766748568596" duration="439000" />
+      <workItem from="1766749018733" duration="1089000" />
+      <workItem from="1766750257432" duration="8000" />
+      <workItem from="1767123780342" duration="5608000" />
+      <workItem from="1767196805442" duration="5079000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -590,7 +597,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765310421634</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="lab8 gameroom leaderboard added">
+      <option name="closed" value="true" />
+      <created>1766650125646</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1766650125646</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lab2 final commit" />
     <MESSAGE value="vezbi 1-5 commit" />
     <MESSAGE value="filesystem fixes" />
     <MESSAGE value="6" />
@@ -633,7 +647,8 @@
     <MESSAGE value="lab4" />
     <MESSAGE value="lab6" />
     <MESSAGE value="lab8" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab8" />
+    <MESSAGE value="lab8 gameroom leaderboard added" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab8 gameroom leaderboard added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
